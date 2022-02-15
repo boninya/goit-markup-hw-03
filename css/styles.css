@@ -58,9 +58,12 @@ header {
   /*  outline: 2px;*/
 
   /* ========= START COMPONENTS ========= */
+  .section {
+    padding: 94px 0;
+  }
+
   .title {
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -70,7 +73,9 @@ header {
   }
   .description {
     color: var(--primary-color-text);
-    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
   }
   .subtitle {
     font-weight: 700;
@@ -189,21 +194,15 @@ header {
 .advantages-container {
   display: flex;
 }
-
-.section-advantages {
-  background: 
-}
 .subtitle-advan {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  padding-top: 94px;
 }
 .advantages-list:not(:last-child) {
   margin-right: 30px;
-}
 }
 .desc-advan {
   font-size: 14px;
@@ -227,8 +226,15 @@ header {
 /* ========= START TEAM ========= */
 .team-container {
   display: flex;
-  padding: 0 0 94px 0;
 }
+
+.team-list {
+  padding-bottom: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-list:not(:last-child) {
   margin-right: 30px;
 }
@@ -238,7 +244,7 @@ background:var(--light-background);
 .subtitle-team {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-color-text);
   margin-top: 30px;
@@ -246,16 +252,19 @@ background:var(--light-background);
   text-align: center;
 }
 .qualification {
-  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
   }
 
 /* ========= END TEAM ========= */
 
 /* ========= START FOOTER ========= */
 .logo-footer {
+  display: inline-block;
   margin-bottom: 20px;
-}
+ }
 .footer-list {
   margin-bottom: 9px;
 }
@@ -307,6 +316,7 @@ padding-bottom: 60px;
 }
 
 .list-button-item {
+  padding: 6px 22px;
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -336,6 +346,9 @@ border-color:transparent;
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
   }
 
   .portfolio-list:nth-child(3n) {
@@ -345,9 +358,16 @@ border-color:transparent;
     margin-bottom: 0;
   }
   .portfolio-item {
-   margin-top: 20px;
-    margin-bottom: 8px;
+    margin: 20px 0 8px 24px;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
+  }
+  .desc-portfolio {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-color-text);
+    margin: 0 0 20px 24px;
   }
 /* ========= END PORTFOLIO ========= */ 
