@@ -71,12 +71,7 @@ header {
     letter-spacing: 0.03em;
     color: var(--secondary-color-text);
   }
-  .description {
-    color: var(--primary-color-text);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
+  
   .subtitle {
     font-weight: 700;
     color: var(--secondary-color-text);
@@ -191,6 +186,10 @@ header {
 /* ========= END HERO ========= */
 
 /* ========= START ADVANTAGES ========= */
+.section-advantages {
+  padding-bottom: 0;
+}
+
 .advantages-container {
   display: flex;
 }
@@ -210,7 +209,12 @@ header {
   letter-spacing: 0.03em;
   width: 270px;
 }
-
+.description {
+  color: var(--primary-color-text);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
   
 
 /* ========= END ADVANTAGES ========= */
